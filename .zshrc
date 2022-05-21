@@ -1,4 +1,4 @@
-export ZSH="/Users/codespace/.oh-my-zsh"
+export ZSH="${HOME}/.oh-my-zsh"
 
 # Theme
 ZSH_THEME="spaceship"
@@ -43,8 +43,8 @@ setopt autopushd pushdsilent
 eval "$(direnv hook zsh)"
 
 # Virtualenv creation
-# virtualenv="/Users/codespace/.pyenv/versions/3.8.12/bin/python -m virtualenv"
-# alias v3="pyenv local 3.8.12; $virtualenv -q -p /Users/codespace/.pyenv/versions/3.8.12/bin/python env && echo Ready!"
+# virtualenv="$HOME/codespace/.pyenv/versions/3.8.12/bin/python -m virtualenv"
+# alias v3="pyenv local 3.8.12; $virtualenv -q -p $HOME/codespace/.pyenv/versions/3.8.12/bin/python env && echo Ready!"
 
 # Virtualenv activation
 # alias a="source env/bin/activate && echo Activated virtualenv!"
